@@ -5,7 +5,7 @@ I am a MSc Computer Engineering student who loves chocolate and creative code.
 - 🔭 I’m currently working on Deep Learning based cybersecurity solutions.
 - 🌱 I’m currently learning about Computer Vision and Machine Learning stuff.
 - 🏴‍☠️ I'm currently involved in CTF competitions and SysAdmin tasks.
-- 💬 Ask me about anything.
+- 💬 Ask me about everything.
 - ⚡ Fun fact: I love ketchup (but not on pasta or pizza) 🍅
 <p align="center">
     <img src="https://img.shields.io/github/followers/TryKatChup?label=Follow"/> &nbsp;&nbsp;
