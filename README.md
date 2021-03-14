@@ -8,7 +8,6 @@ I am a MSc Computer Engineering student who loves chocolate and creative code.
 - 💬 Ask me about anything.
 - ⚡ Fun fact: I love ketchup (but not on pasta or pizza) 🍅
 </br>
-</br>
 <p align="center">
     <img src="https://img.shields.io/github/followers/TryKatChup?label=Follow"/> &nbsp;&nbsp;
     <img src="https://komarev.com/ghpvc/?username=TryKatChup&style=social"/>
