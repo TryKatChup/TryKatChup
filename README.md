@@ -1,16 +1,18 @@
-### Welcome to my GitHub profile 👋 :octocat:
-I am a MSc Computer Engineer student
-<!--
-**TryKatChup/TryKatChup** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Welcome to my GitHub profile <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="60">
+I am a MSc Computer Engineering student who loves chocolate and creative code.
 
-Here are some ideas to get you started:
+- 🔭 I’m currently working on Deep Learning based cybersecurity solutions.
+- 🌱 I’m currently learning about Computer Vision and Machine Learning stuff.
+- 🏴‍☠️ I'm currently involved in CTF competitions and SysAdmin tasks.
+- 💬 Ask me about anything.
+- ⚡ Fun fact: I love ketchup (but not on pasta or pizza)🍅
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=TryKatChup&show_icons=true&count_private=true&theme=tokyonight"/> &nbsp &nbsp &nbsp
+</a>
+</br>
 
-- 🔭 I’m currently working on 
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+    <img src="https://img.shields.io/github/followers/TryKatChup?label=Follow"/> &nbsp;&nbsp;
+    <img src="https://komarev.com/ghpvc/?username=TryKatChup&style=social"/>
+</p>
