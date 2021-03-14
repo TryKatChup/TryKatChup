@@ -11,7 +11,7 @@ I am a MSc Computer Engineering student who loves chocolate and creative code.
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=TryKatChup&show_icons=true&count_private=true&theme=tokyonight"/> &nbsp &nbsp &nbsp
 </a>
 </br>
-
+</br>
 <p align="center">
     <img src="https://img.shields.io/github/followers/TryKatChup?label=Follow"/> &nbsp;&nbsp;
     <img src="https://komarev.com/ghpvc/?username=TryKatChup&style=social"/>
