@@ -6,7 +6,7 @@ I am a MSc Computer Engineering student who loves chocolate and creative code.
 - 🌱 I’m currently learning about Computer Vision and Machine Learning stuff.
 - 🏴‍☠️ I'm currently involved in CTF competitions and SysAdmin tasks.
 - 💬 Ask me about anything.
-- ⚡ Fun fact: I love ketchup (but not on pasta or pizza)🍅
+- ⚡ Fun fact: I love ketchup (but not on pasta or pizza) 🍅
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=TryKatChup&show_icons=true&count_private=true&theme=tokyonight"/> &nbsp &nbsp &nbsp
 </a>
