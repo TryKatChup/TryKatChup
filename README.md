@@ -11,3 +11,5 @@ I am a MSc Computer Engineering student who loves chocolate and creative code.
     <img src="https://img.shields.io/github/followers/TryKatChup?label=Follow"/> &nbsp;&nbsp;
     <img src="https://komarev.com/ghpvc/?username=TryKatChup&style=social"/>
 </p>
+
+ ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
