@@ -28,8 +28,8 @@ trykatchup@github
 💖 In a complicated relationship with Suricata IDS
 🖌️ Love drawing portraits and cute stuff, cycling, going to concerts
 🎵 Love metal, rock, jazz and blues
-⚡ I love ketchup (but not on pasta or pizza) 🍅
-💻 Total commits: 503
+⚡ Love ketchup (but not on pasta or pizza) 🍅
+💻 Total commits: 504
 ⭐ Total start gained: 53
 ```
 
