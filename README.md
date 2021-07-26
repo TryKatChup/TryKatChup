@@ -26,10 +26,10 @@ trykatchup@github
 🏴‍☠️ Currently involved in CTF competitions and sysadmin tasks
 🚩 Interested in network security and web security
 💖 In a complicated relationship with Suricata IDS
-🖌️ I love drawing portraits and cute stuff, cycling, going to concerts
-🎵 I love metal, rock, jazz and blues
+🖌️ Love drawing portraits and cute stuff, cycling, going to concerts
+🎵 Love metal, rock, jazz and blues
 ⚡ I love ketchup (but not on pasta or pizza) 🍅
-💻 Total commits: 500
+💻 Total commits: 501
 ⭐ Total start gained: 53
 ```
 
