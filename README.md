@@ -29,8 +29,8 @@ trykatchup@github
 🖌️ Love drawing portraits and cute stuff, cycling, going to concerts
 🎵 Love metal, rock, jazz and blues
 ⚡ Love ketchup (but not on pasta or pizza) 🍅
-💻 Total commits: 508
-⭐ Total start gained: 59
+💻 Total commits: 509
+⭐ Total start gained: 64
 ```
 
 <p align="left">
@@ -39,13 +39,13 @@ trykatchup@github
 </p>
 
 ```console
-trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/killbugs" >> /tmp/crontab$$
+trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/catchingbugs" >> /tmp/crontab$$
 ```
 
 ```
 [sudo] Password for trykatchup:
 
-Killing bugs in code...
+CATching bugs in code...
                               
        \`*-.    [me]              
         )  _`-.                 
