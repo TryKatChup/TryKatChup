@@ -39,7 +39,7 @@ trykatchup@github
 </p>
 
 ```console
-trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/catchingbugs" >> /tmp/crontab$$
+trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/catchbugs" >> /tmp/crontab$$
 ```
 
 ```
