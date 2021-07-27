@@ -39,13 +39,13 @@ trykatchup@github
 </p>
 
 ```console
-trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/killbugs" >> /tmp/crontab$$
+trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/catchingbugs" >> /tmp/crontab$$
 ```
 
 ```
 [sudo] Password for trykatchup:
 
-Killing bugs in code...
+CATching bugs in code...
                               
        \`*-.    [me]              
         )  _`-.                 
