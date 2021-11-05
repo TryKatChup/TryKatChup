@@ -29,8 +29,8 @@ trykatchup@github
 🖌️ Love drawing portraits and cute stuff, cycling, going to concerts
 🎵 Love metal, rock, jazz and blues
 ⚡ Love ketchup (but not on pasta or pizza) 🍅
-💻 Total commits: 657
-⭐ Total start gained: 77
+💻 Total commits: 659
+⭐ Total start gained: 78
 ```
 
 <p align="left">
