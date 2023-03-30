@@ -30,7 +30,7 @@ trykatchup@github
 🎵 Love metal, rock, jazz and blues
 ⚡ Love ketchup (but not on pasta or pizza) 🍅
 💻 Total commits: 5925
-⭐ Total start gained: 157
+⭐ Total start gained: 156
 ```
 
 <p align="left">
