@@ -30,7 +30,7 @@ trykatchup@github
 🎵 Love metal, rock, jazz and blues
 ⚡ Love ketchup (but not on pasta or pizza) 🍅
 💻 Total commits: 6022
-⭐ Total stars gained: 172
+⭐ Total stars gained: 169
 ```
 
 <p align="left">
