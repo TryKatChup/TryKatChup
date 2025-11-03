@@ -81,7 +81,7 @@ def update_readme(selected_image, colors):
     # Update image line - now it's a simple <img src="..."> without align
     old_img_line_pattern = '<img src="cropped.jpg"'
 
-    new_img_line = f'<img src="cropped.jpg" alt="Unfortunately I didn\'t find the author of the pic, feel to open a pull request if found" width="320" />'
+    new_img_line = f'<img src="cropped.jpg" alt="Unfortunately I didn\'t find the author of the pic, feel to open a pull request if found" width="300" />'
 
     # Find and replace the image line
     lines = content.split('\n')
