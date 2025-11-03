@@ -13,7 +13,15 @@ trykatchup@github:~$ ./welcome.sh
                 ||     ||
 ```
 
-<img align="left" src="https://github.com/TryKatChup/TryKatChup/blob/main/cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="320" />
+<table>
+<tr>
+<td width="320">
+<img src="cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="320" /> <p align="center">
+<img alt="#d49a96" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/d49a96.png" width="25" height="20" /><img alt="#914042" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/914042.png" width="25" height="20" /><img alt="#b37276" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/b37276.png" width="25" height="20" /><img alt="#e5b2b3" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e5b2b3.png" width="25" height="20" /><img alt="#342a28" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/342a28.png" width="25" height="20" />
+</p>
+</td>
+<td valign="middle">
+
 
 ```
 trykatchup@github
@@ -22,7 +30,7 @@ trykatchup@github
 🔎 Main interests in attacking AI models and defending them for the greatest good ©️
 🔭 Still figuring out what to do in my life
 🌱 Learning about agentic AI
-🚀 Determined to learn RUST 🚀  
+🚀 Determined to learn RUST 🚀
 🏴‍☠️ Involved in CTF competitions and sysadmin tasks
 💖 In a complicated relationship with Suricata IDS
 🖌️ Love drawing portraits, hiking, stargazing, going to concerts
@@ -32,10 +40,9 @@ trykatchup@github
 ⭐ Total stars gained: 172
 ```
 
-<p align="left">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="#d49a96" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/d49a96.png" width="25" height="20" /><img alt="#914042" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/914042.png" width="25" height="20" /><img alt="#b37276" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/b37276.png" width="25" height="20" /><img alt="#e5b2b3" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e5b2b3.png" width="25" height="20" /><img alt="#342a28" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/342a28.png" width="25" height="20" />
-</p>
+</td>
+</tr>
+</table>
 
 ```console
 trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/catchbugs" >> /tmp/crontab$$

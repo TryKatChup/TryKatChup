@@ -78,22 +78,20 @@ def update_readme(selected_image, colors):
     with open(readme_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Update image line
-    old_img_line_start = '<img align="left" src="https://github.com/TryKatChup/TryKatChup/blob/main/'
-    old_img_line_end = 'width="320" />'
+    # Update image line - now it's a simple <img src="..."> without align
+    old_img_line_pattern = '<img src="cropped.jpg"'
 
-    new_img_line = f'<img align="left" src="https://github.com/TryKatChup/TryKatChup/blob/main/{selected_image}" alt="Unfortunately I didn\'t find the author of the pic, feel to open a pull request if found" width="320" />'
+    new_img_line = f'<img src="cropped.jpg" alt="Unfortunately I didn\'t find the author of the pic, feel to open a pull request if found" width="320" />'
 
     # Find and replace the image line
     lines = content.split('\n')
     for i, line in enumerate(lines):
-        if old_img_line_start in line and old_img_line_end in line:
+        if old_img_line_pattern in line:
             lines[i] = new_img_line
             break
 
-    # Update color palette
-    color_palette_start = '<p align="left">'
-    color_palette_end = '</p>'
+    # Update color palette - now it's align="center" and on a single line
+    color_palette_marker = '<p align="center">'
 
     # Create color images and build the color palette HTML
     color_imgs = []
@@ -102,27 +100,25 @@ def update_readme(selected_image, colors):
         hex_clean = color.lstrip('#')
         color_imgs.append(f'<img alt="{color}" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/{hex_clean}.png" width="25" height="20" />')
 
-    new_color_palette = f"""<p align="left">
-  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-{''.join(color_imgs)}
-</p>"""
+    # Build the new color palette line (single line)
+    new_color_palette_line = f'<p align="center">\n{"".join(color_imgs)}\n</p>'
 
-    # Find and replace color palette
+    # Find and replace color palette (it appears after the image line)
     in_color_section = False
     new_lines = []
     i = 0
     while i < len(lines):
         line = lines[i]
-        if color_palette_start in line and not in_color_section:
-            # Found start of color palette, replace entire section
+        if color_palette_marker in line and not in_color_section:
+            # Found start of color palette, replace entire section until </p>
             in_color_section = True
-            # Skip lines until we find the end
-            while i < len(lines) and color_palette_end not in lines[i]:
+            # Skip lines until we find </p>
+            while i < len(lines) and '</p>' not in lines[i]:
                 i += 1
             if i < len(lines):  # Found the end
-                i += 1  # Skip the end line too
+                i += 1  # Skip the </p> line too
             # Add our new color palette
-            new_lines.extend(new_color_palette.split('\n'))
+            new_lines.extend(new_color_palette_line.split('\n'))
         else:
             new_lines.append(line)
         i += 1
