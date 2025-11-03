@@ -13,21 +13,20 @@ trykatchup@github:~$ ./welcome.sh
                 ||     ||
 ```
 
-<img align="left" src="https://github.com/TryKatChup/TryKatChup/blob/main/cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="320" /> 
+<img align="left" src="https://github.com/TryKatChup/TryKatChup/blob/main/cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="320" />
 
 ```
 trykatchup@github
 -------------------------
-🏫 MsC Computer engineering student @Unibo
-🔎 Main interests in AI & Cybersec
-🔭 Working on Deep Learning based cybersecurity solutions
-🌱 Learning about Computer Vision and Machine Learning stuff
-🌟 Main languages: Python, C/C++, Java 
-🏴‍☠️ Currently involved in CTF competitions and sysadmin tasks
-🚩 Interested in network security and web security
+🏫 Researcher @Unibo
+🔎 Main interests in attacking AI models and defending them for the greatest good ©️
+🔭 Still figuring out what to do in my life
+🌱 Learning about agentic AI
+🚀 Determined to learn RUST 🚀  
+🏴‍☠️ Involved in CTF competitions and sysadmin tasks
 💖 In a complicated relationship with Suricata IDS
-🖌️ Love drawing portraits and cute stuff, cycling, going to concerts
-🎵 Love metal, rock, jazz and blues
+🖌️ Love drawing portraits, hiking, stargazing, going to concerts
+🎵 Love metal, rock, electronics, funk and weird mixed genres
 ⚡ Love ketchup (but not on pasta or pizza) 🍅
 💻 Total commits: 6060
 ⭐ Total stars gained: 172
@@ -35,9 +34,8 @@ trykatchup@github
 
 <p align="left">
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<img alt="#917b88" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/917b88.png" width="25" height="20" /><img alt="#fdfef6" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/fdfef6.png" width="25" height="20" /><img alt="#91bebb" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/91bebb.png" width="25" height="20" /><img alt="#feb2bf" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/feb2bf.png" width="25" height="20" /><img alt="#95e3ed" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/95e3ed.png" width="25" height="20" />
+<img alt="#d49a96" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/d49a96.png" width="25" height="20" /><img alt="#914042" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/914042.png" width="25" height="20" /><img alt="#b37276" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/b37276.png" width="25" height="20" /><img alt="#e5b2b3" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e5b2b3.png" width="25" height="20" /><img alt="#342a28" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/342a28.png" width="25" height="20" />
 </p>
-
 ```console
 trykatchup@github:~$ sudo echo "* * * * * /usr/local/bin/catchbugs" >> /tmp/crontab$$
 ```
