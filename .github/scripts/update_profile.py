@@ -127,22 +127,24 @@ def update_readme(selected_image, colors):
     with open(readme_path, 'w', encoding='utf-8') as f:
         f.write('\n'.join(new_lines))
 
-def copy_selected_image(selected_image):
-    """Copy selected image to root as cropped.jpg"""
+def copy_selected_image(selected_image, max_size=600):
+    """Copy selected image to root as cropped.jpg, resized to consistent dimensions"""
     source_path = os.path.join("Waifu", selected_image)
 
-    # Copy the file to root directory with the expected name
-    if selected_image.lower().endswith('.jpg') or selected_image.lower().endswith('.jpeg'):
-        shutil.copy2(source_path, "cropped.jpg")
-    else:
-        # Convert to JPG if it's not already
-        with Image.open(source_path) as img:
-            rgb_img = img.convert('RGB')
-            rgb_img.save("cropped.jpg", "JPEG")
+    with Image.open(source_path) as img:
+        # Convert to RGB (handles PNG with transparency, etc.)
+        rgb_img = img.convert('RGB')
+
+        # Resize maintaining aspect ratio, fitting within max_size x max_size
+        rgb_img.thumbnail((max_size, max_size), Image.Resampling.LANCZOS)
+
+        # Save as JPEG with good quality
+        rgb_img.save("cropped.jpg", "JPEG", quality=85)
+        print(f"Resized image to: {rgb_img.size}")
 
 def main():
     try:
-        print("Starting monthly profile update...")
+        print("Starting profile update...")
 
         # Get available images
         images = get_available_images()
