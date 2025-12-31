@@ -19,9 +19,8 @@ trykatchup@github:~$ ./welcome.sh
 <img src="cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="300" />
 <br>
 <p align="center">
-<img alt="#91bdba" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/91bdba.png" width="25" height="20" /><img alt="#f9f8f0" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/f9f8f0.png" width="25" height="20" /><img alt="#efa9bc" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/efa9bc.png" width="25" height="20" /><img alt="#806f85" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/806f85.png" width="25" height="20" /><img alt="#c5edea" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/c5edea.png" width="25" height="20" />
+<img alt="#e0b168" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e0b168.png" width="25" height="20" /><img alt="#bfc7c9" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/bfc7c9.png" width="25" height="20" /><img alt="#c65a6e" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/c65a6e.png" width="25" height="20" /><img alt="#492530" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/492530.png" width="25" height="20" /><img alt="#fad6c4" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/fad6c4.png" width="25" height="20" />
 </p>
-trykatchup@github
 -------------------------
 🏫 Researcher @Unibo
 🔎 Main interests in attacking AI models and defending them ©️
