@@ -19,9 +19,8 @@ trykatchup@github:~$ ./welcome.sh
 <img src="cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="300" />
 <br>
 <p align="center">
-<img alt="#91bdba" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/91bdba.png" width="25" height="20" /><img alt="#f9f8f0" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/f9f8f0.png" width="25" height="20" /><img alt="#efa9bc" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/efa9bc.png" width="25" height="20" /><img alt="#806f85" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/806f85.png" width="25" height="20" /><img alt="#c5edea" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/c5edea.png" width="25" height="20" />
+<img alt="#ea938c" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/ea938c.png" width="25" height="20" /><img alt="#f8538d" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/f8538d.png" width="25" height="20" /><img alt="#556d6e" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/556d6e.png" width="25" height="20" /><img alt="#e9c9bf" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e9c9bf.png" width="25" height="20" /><img alt="#c37977" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/c37977.png" width="25" height="20" />
 </p>
-⚡ Love ketchup (but not on pasta or pizza) 🍅
 💻 Total commits: 6060
 ⭐ Total stars gained: 172
 ```
