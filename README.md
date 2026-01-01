@@ -19,9 +19,8 @@ trykatchup@github:~$ ./welcome.sh
 <img src="cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="300" />
 <br>
 <p align="center">
-<img alt="#f7ba3e" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/f7ba3e.png" width="25" height="20" /><img alt="#9bb68b" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/9bb68b.png" width="25" height="20" /><img alt="#d5a95d" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/d5a95d.png" width="25" height="20" /><img alt="#e7bb9d" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e7bb9d.png" width="25" height="20" /><img alt="#8c9771" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/8c9771.png" width="25" height="20" />
+<img alt="#020001" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/020001.png" width="25" height="20" /><img alt="#8b1219" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/8b1219.png" width="25" height="20" /><img alt="#7c376f" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/7c376f.png" width="25" height="20" /><img alt="#d13f4b" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/d13f4b.png" width="25" height="20" /><img alt="#e09996" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/e09996.png" width="25" height="20" />
 </p>
-🚀 Determined to learn RUST 🚀
 🏴‍☠️ Involved in CTF competitions and sysadmin tasks
 💖 In a complicated relationship with Suricata IDS
 🖌️ Love drawing portraits, hiking, stargazing, going to concerts
