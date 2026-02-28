@@ -3,6 +3,8 @@
 import os
 import random
 import shutil
+import json
+import urllib.request
 from datetime import datetime
 from PIL import Image
 import numpy as np
@@ -68,8 +70,44 @@ def create_color_image(hex_color, width=25, height=20):
 
     return img_path
 
+def fetch_github_stats(username="TryKatChup"):
+    """Fetch total commits and stars from GitHub API"""
+    token = os.environ.get("GITHUB_TOKEN", "")
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    if token:
+        headers["Authorization"] = f"token {token}"
+
+    # Fetch total stars across all repos
+    total_stars = 0
+    page = 1
+    while True:
+        url = f"https://api.github.com/users/{username}/repos?per_page=100&page={page}"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req) as resp:
+            repos = json.loads(resp.read().decode())
+        if not repos:
+            break
+        for repo in repos:
+            if not repo.get("fork", False):
+                total_stars += repo.get("stargazers_count", 0)
+        page += 1
+
+    # Fetch total commits using the search API
+    total_commits = 0
+    url = f"https://api.github.com/search/commits?q=author:{username}"
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode())
+            total_commits = data.get("total_count", 0)
+    except Exception as e:
+        print(f"Warning: could not fetch commit count: {e}")
+
+    return total_commits, total_stars
+
+
 def update_readme(selected_image, colors):
-    """Generate README.md from TEMPLATE.md with updated color palette"""
+    """Generate README.md from TEMPLATE.md with updated color palette and stats"""
     template_path = "TEMPLATE.md"
 
     if not os.path.exists(template_path):
@@ -77,6 +115,15 @@ def update_readme(selected_image, colors):
 
     with open(template_path, 'r', encoding='utf-8') as f:
         content = f.read()
+
+    # Replace stats placeholders
+    try:
+        commits, stars = fetch_github_stats()
+        content = content.replace("{{ COMMITS }}", str(commits))
+        content = content.replace("{{ STARS }}", str(stars))
+        print(f"Stats: {commits} commits, {stars} stars")
+    except Exception as e:
+        print(f"Warning: could not fetch GitHub stats, keeping placeholders: {e}")
 
     # Create color images and build the color palette HTML
     color_imgs = []
@@ -93,14 +140,13 @@ def update_readme(selected_image, colors):
     i = 0
     while i < len(lines):
         line = lines[i]
-        if '<p align="left">' in line:
+        if '<p align="center">' in line:
             new_lines.append(line)
             i += 1
             # Skip existing content lines until </p>
             while i < len(lines) and '</p>' not in lines[i]:
                 i += 1
-            # Add spacing and new color images
-            new_lines.append('  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;')
+            # Add new color images
             new_lines.append(new_color_line)
             if i < len(lines):
                 new_lines.append(lines[i])  # Add </p>

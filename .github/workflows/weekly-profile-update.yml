@@ -25,6 +25,8 @@ jobs:
         pip install Pillow requests numpy scikit-learn
 
     - name: Update profile picture and colors
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: python .github/scripts/update_profile.py
 
     - name: Commit and push changes

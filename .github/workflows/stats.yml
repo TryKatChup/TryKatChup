@@ -1,4 +1,4 @@
-name: 'build-test'
+name: 'Update Stats'
 on:
   schedule:
     - cron: '0 */12 * * *' # every 12 hours
@@ -7,22 +7,32 @@ on:
       - main
       - master
 jobs:
-  publish:
+  update-stats:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-    - uses: actions/checkout@v2.3.4
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
       with:
-        fetch-depth: 0
-    - name: Generate README.md
-      uses: teoxoy/profile-readme-stats@v1
-      with:
-        token: ${{ secrets.USER_TOKEN }}
-    - name: Update README.md
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: pip install Pillow numpy scikit-learn
+
+    - name: Update README with latest stats
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: python .github/scripts/update_profile.py
+
+    - name: Commit changes
       run: |
         if [[ "$(git status --porcelain)" != "" ]]; then
-        git config user.name github-actions[bot]
-        git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-        git add .
-        git commit -m "Update README"
-        git push
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add README.md img/
+          git commit -m "📊 Update stats"
+          git push
         fi
