@@ -69,29 +69,14 @@ def create_color_image(hex_color, width=25, height=20):
     return img_path
 
 def update_readme(selected_image, colors):
-    """Update README.md with new image and color palette"""
-    readme_path = "README.md"
+    """Generate README.md from TEMPLATE.md with updated color palette"""
+    template_path = "TEMPLATE.md"
 
-    if not os.path.exists(readme_path):
-        raise FileNotFoundError("README.md not found")
+    if not os.path.exists(template_path):
+        raise FileNotFoundError("TEMPLATE.md not found")
 
-    with open(readme_path, 'r', encoding='utf-8') as f:
+    with open(template_path, 'r', encoding='utf-8') as f:
         content = f.read()
-
-    # Update image line - now it's a simple <img src="..."> without align
-    old_img_line_pattern = '<img src="cropped.jpg"'
-
-    new_img_line = f'<img src="cropped.jpg" alt="Unfortunately I didn\'t find the author of the pic, feel to open a pull request if found" width="300" />'
-
-    # Find and replace the image line
-    lines = content.split('\n')
-    for i, line in enumerate(lines):
-        if old_img_line_pattern in line:
-            lines[i] = new_img_line
-            break
-
-    # Update color palette - now it's align="center" and on a single line
-    color_palette_marker = '<p align="center">'
 
     # Create color images and build the color palette HTML
     color_imgs = []
@@ -100,31 +85,30 @@ def update_readme(selected_image, colors):
         hex_clean = color.lstrip('#')
         color_imgs.append(f'<img alt="{color}" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/{hex_clean}.png" width="25" height="20" />')
 
-    # Build the new color palette line (single line)
-    new_color_palette_line = f'<p align="center">\n{"".join(color_imgs)}\n</p>'
+    new_color_line = ''.join(color_imgs)
 
-    # Find and replace color palette (it appears after the image line)
-    in_color_section = False
+    # Replace the color palette images in the template
+    lines = content.split('\n')
     new_lines = []
     i = 0
     while i < len(lines):
         line = lines[i]
-        if color_palette_marker in line and not in_color_section:
-            # Found start of color palette, replace entire section until </p>
-            in_color_section = True
-            # Skip lines until we find </p>
+        if '<p align="left">' in line:
+            new_lines.append(line)
+            i += 1
+            # Skip existing content lines until </p>
             while i < len(lines) and '</p>' not in lines[i]:
                 i += 1
-            if i < len(lines):  # Found the end
-                i += 1  # Skip the </p> line too
-            # Add our new color palette
-            new_lines.extend(new_color_palette_line.split('\n'))
+            # Add spacing and new color images
+            new_lines.append('  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;')
+            new_lines.append(new_color_line)
+            if i < len(lines):
+                new_lines.append(lines[i])  # Add </p>
         else:
             new_lines.append(line)
         i += 1
 
-    # Write back to file
-    with open(readme_path, 'w', encoding='utf-8') as f:
+    with open("README.md", 'w', encoding='utf-8') as f:
         f.write('\n'.join(new_lines))
 
 def copy_selected_image(selected_image, max_size=600):
