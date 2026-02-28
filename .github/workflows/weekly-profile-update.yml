@@ -1,8 +1,8 @@
-name: Weekly Profile Picture Update
+name: Profile Picture Update
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # Run every Monday at midnight UTC
+    - cron: '0 */12 * * *' # every 12 hours
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
@@ -34,5 +34,5 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md img/ cropped.jpg
-        git diff --staged --quiet || git commit -m "🎨 Weekly waifu update - $(date +'%Y-%m-%d %H:%M')"
+        git diff --staged --quiet || git commit -m "🎨 Profile update - $(date +'%Y-%m-%d %H:%M')"
         git push
