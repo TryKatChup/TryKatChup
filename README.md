@@ -19,7 +19,7 @@ trykatchup@github:~$ ./welcome.sh
 <img src="https://github.com/TryKatChup/TryKatChup/blob/main/cropped.jpg" alt="Unfortunately I didn't find the author of the pic, feel to open a pull request if found" width="300" />
 <br>
 <p align="center">
-<img alt="#c7a7cf" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/c7a7cf.png" width="25" height="20" /><img alt="#feefcc" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/feefcc.png" width="25" height="20" /><img alt="#f9b8c2" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/f9b8c2.png" width="25" height="20" /><img alt="#b87b84" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/b87b84.png" width="25" height="20" /><img alt="#df98a2" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/df98a2.png" width="25" height="20" />
+<img alt="#fbbfc3" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/fbbfc3.png" width="25" height="20" /><img alt="#d74562" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/d74562.png" width="25" height="20" /><img alt="#64353a" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/64353a.png" width="25" height="20" /><img alt="#b8afb0" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/b8afb0.png" width="25" height="20" /><img alt="#f7f0ef" src="https://raw.githubusercontent.com/TryKatChup/TryKatChup/main/img/f7f0ef.png" width="25" height="20" />
 </p>
 </td>
 <td width="65%" valign="middle">
